@@ -1,0 +1,49 @@
+/* plus petit que 768px */
+@media (max-width:768px){
+	div#nav nav{
+		text-align: center;
+		margin-top: 10px;
+	}
+	div#contenu{
+		padding: 15px 10px;
+	}
+
+}
+@media (max-width:992px){
+	div#nav{
+		position: relative;
+		bottom: 0;
+	}
+	div#nav nav ul li{
+	}
+	div#nav nav{
+		text-align: center;
+		margin-top: 10px;
+		float: none;
+	}
+	div#lang
+	{
+		text-align: center;
+		top: -22px;
+		width: 100%;
+	}
+	div#lang ul{
+		padding: initial;
+	}
+	div.bordersep
+	{
+		border: none;
+	}
+	div#speciallogo{
+		margin-bottom: 20px;
+	}
+	div#contenu{
+		padding: 20px 15px;
+	}
+
+}
+@media (max-width:1200px){
+	div#nav nav ul li a{
+		padding: 0px 18px;
+	}
+}
